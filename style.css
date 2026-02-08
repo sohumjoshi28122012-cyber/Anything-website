@@ -3,12 +3,15 @@ img {
     border-radius: 50px;
     display: block;
     margin: auto;
-}
+     border-color:rgb(206, 206, 231) ;
+    box-shadow: 0px 40px 150px rgb(248, 248, 248);
+    transition: all 0.5s ease-in-out;
+} 
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #000000;
-    color :rgb(146, 146, 241);
+    color :rgb(120, 167, 228);
 }
 a:hover{
     color: aqua;
@@ -18,13 +21,23 @@ a{
 }
 button{
     border-color:navy ;
-    background-color:antiquewhite;
+    background-color:rgb(255, 145, 0);
     box-shadow: 0px 4px 15px white;
     transition: all 0.5s ease-in-out;
-     width: 150px;
+     width: 300px;
+     height: 40px;
+     border-radius: 10px;
 }
 button:hover{
     border-color:navy ;
     background-color:antiquewhite;
-    box-shadow: 0px 4px 50px orange;
+    box-shadow: 0px 4px 50px rgb(155, 227, 255);
+    border-radius: 50px;
+    width: 200px;
+    height:30px ;
+} 
+img:hover{
+border-radius: 120px;
+
+
 }
