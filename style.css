@@ -6,6 +6,7 @@ img {
      border-color:rgb(206, 206, 231) ;
     box-shadow: 0px 40px 150px rgb(248, 248, 248);
     transition: all 0.5s ease-in-out;
+    animation: unc 4s infinite;
 } 
 body {
     text-align: center;
@@ -41,4 +42,13 @@ img:hover{
 border-radius: 120px;
 
 
+}
+@keyframes unc {
+   0%{
+transform: translateX(30px);
+   }
+   100%{
+    transform: translateX(-30px);
+   }
+   
 }
