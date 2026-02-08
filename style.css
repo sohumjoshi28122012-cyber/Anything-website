@@ -1,6 +1,8 @@
 img {
-    width: 2000px;
+    width: 1250px;
     border-radius: 50px;
+    display: block;
+    margin: auto;
 }
 body {
     text-align: center;
@@ -13,4 +15,16 @@ a:hover{
 }
 a{
     color:gold ;
+}
+button{
+    border-color:navy ;
+    background-color:antiquewhite;
+    box-shadow: 0px 4px 15px white;
+    transition: all 0.5s ease-in-out;
+     width: 150px;
+}
+button:hover{
+    border-color:navy ;
+    background-color:antiquewhite;
+    box-shadow: 0px 4px 50px orange;
 }
